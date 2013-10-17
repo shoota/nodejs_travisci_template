@@ -1,0 +1,24 @@
+{
+    name: "nodejs_travisci_template",
+    version: "0.0.1",
+    author: "shoota <shoota.dev@gmail.com>",
+    description: "Template for the CI in TravisCI the module developed in Node.js.",
+    main: "./index.js",
+    license: "MIT",
+    readmeFilename: "README.md",
+    repository: {
+        type: "git",
+        url: "git://github.com/shoota/nodejs_travisci_template"
+    },
+    dependencies: {
+    },
+    devDependencies: {
+        mocha: "*",
+        should: "~2.0.1"
+    },
+    scripts: {
+        test: "mocha"
+    },
+    engines: {
+    }
+}
